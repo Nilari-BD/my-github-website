@@ -1,12 +1,160 @@
-<html>
-  <head>
-    <title>My Styled Page</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Welcome to My Website</h1>
-    <p>This page uses CSS to look better!</p>
-    <a href="about.html">About</a> |
-    <a href="contact.html">Contact</a> 
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diana Paola Gasca Duran - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Diana Paola Gasca Durán</h1>
+    <p>Programmer • Developer • IT & Administrative Professional • Data Analyst</p>
+  </header>
+
+  <!-- Professional Summary -->
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Data Analyst with 10+ years of experience in telecommunications data analysis, cost optimization, and KPI performance management. 
+      Completed Computer Programming Diploma at Algonquin College (2025) and postgraduate studies in Data Analytics. 
+      Strong in handling large datasets, building analytical models, and generating actionable insights. Skilled in Excel, SQL, Python, and BI tools. 
+      Analytical thinker, detail-oriented, and adaptable.
+    </p>
+  </section>
+
+  <!-- Core Skills -->
+  <section>
+    <h2>Core Skills</h2>
+    <div class="skills">
+      <span>Mathematical & Statistical Analysis</span>
+      <span>Data Analysis & Reporting</span>
+      <span>Excel, SQL, Python</span>
+      <span>Power BI, Tableau</span>
+      <span>Databases: MySQL, MongoDB, Oracle</span>
+      <span>Programming: Python, Java,</span>
+      <span>Analytical Thinking & Problem-Solving</span>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>Postgraduate Certificate in Data Analytics – St. Clair College (2025, in progress)</li>
+      <li>Computer Programming Diploma – Algonquin College, Ottawa, Canada (2024 – 2025)</li>
+      <li>Bachelor of Electronics and Telecommunications Engineering – University of Cauca, Colombia (2001 – 2007)</li>
+      <li>Specialization in Marketing Management – Politécnico Grancolombiano, Colombia (2017)</li>
+    </ul>
+  </section>
+
+  <!-- Professional Experience -->
+  <section>
+    <h2>Professional Experience</h2>
+    <div class="accordion">
+      <button class="accordion-btn">Business Solutions Senior Specialist / Account Executive – Colombia Telecomunicaciones (2018 – 2021)</button>
+      <div class="panel">
+        <ul>
+          <li>Conducted cost analysis of telecom services for enterprise clients, preparing proposals and financial reports to optimize budgets.</li>
+          <li>Designed and presented data-driven solutions aligning client needs with service performance.</li>
+          <li>Managed reporting of large datasets to support decision-making in pricing and service strategy.</li>
+          <li>Collaborated with internal technical and business teams to ensure proposal accuracy.</li>
+        </ul>
+      </div>
+
+      <button class="accordion-btn">Consultant – KPI Assurance, Claro Colombia (2013 – 2017)</button>
+      <div class="panel">
+        <ul>
+          <li>Developed, tracked, and analyzed KPIs for customer experience (NPS, retention, and sales).</li>
+          <li>Identified improvement opportunities from data trends, increasing client satisfaction.</li>
+          <li>Designed dashboards and reports in Excel to communicate performance insights.</li>
+          <li>Provided coaching based on KPI analysis, supporting data-driven sales training initiatives.</li>
+        </ul>
+      </div>
+
+      <button class="accordion-btn">Project Consultant – Cost & Data Optimization, RFCOM S.A. (2009 – 2012)</button>
+      <div class="panel">
+        <ul>
+          <li>Performed cost optimization analysis of telecom infrastructures and services.</li>
+          <li>Created Excel-based reports and financial models for project tracking and forecasting.</li>
+          <li>Generated performance and billing reports to support managerial decisions.</li>
+        </ul>
+      </div>
+
+      <button class="accordion-btn">Operations Manager – Gas Coches Ltda. (2007 – 2009)</button>
+      <div class="panel">
+        <ul>
+          <li>Directed operations and inventory management, analyzing procurement data to optimize costs and reduce delays.</li>
+          <li>Produced performance reports for supply chain efficiency and cost tracking.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects & Portfolio -->
+  <section>
+    <h2>Projects & Portfolio</h2>
+    <div class="accordion">
+      <button class="accordion-btn">Undergraduate Thesis – Universidad del Cauca (2007)</button>
+      <div class="panel">
+        <ul>
+          <li>Developed MATLAB algorithm for EMG signal analysis for prosthetic hand research.</li>
+          <li>Applied wavelet transforms to enhance biomedical signal processing.</li>
+        </ul>
+      </div>
+
+      <button class="accordion-btn">VoIP Contact Center Prototypes – Universidad del Cauca</button>
+      <div class="panel">
+        <ul>
+          <li>Designed IVR, ACD, voicemail, CDR, and queue management prototypes using Asterisk, Java, PHP, MySQL, Linux.</li>
+        </ul>
+      </div>
+
+      <button class="accordion-btn">Web & Desktop Applications</button>
+      <div class="panel">
+        <ul>
+          <li>Recipes Web App & Daycare Registration System (Java Servlets, JSP, MySQL)</li>
+          <li>Recreational Club Platform (Python, SQLite, Django)</li>
+          <li>Desktop Sales App (Python & SQLite)</li>
+        </ul>
+      </div>
+
+      <button class="accordion-btn">Web Programming & Android Projects</button>
+      <div class="panel">
+        <ul>
+          <li>PHP scripts for CRUD in MySQL, dynamic HTML tables with JS</li>
+          <li>Android apps consuming REST APIs and processing JSON</li>
+        </ul>
+      </div>
+
+      <button class="accordion-btn">MongoDB Lab Project</button>
+      <div class="panel">
+        <ul>
+          <li>Designed MongoDB schemas, implemented queries and aggregations, and visualized performance metrics.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:dipaogasca1@gmail.com" class="btn">dipaogasca1@gmail.com</a> | 📱 226-346-8617</p>
+  </section>
+
+  <script>
+    // Accordion functionality
+    const accordions = document.querySelectorAll('.accordion-btn');
+    accordions.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+        const panel = btn.nextElementSibling;
+        panel.style.display = (panel.style.display === 'block') ? 'none' : 'block';
+      });
+    });
+  </script>
+
+</body>
 </html>
