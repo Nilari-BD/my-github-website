@@ -38,7 +38,7 @@ section {
 
 
 .skills-accordion-btn {
-  background-color: #2e828b;
+  background-color: #eee;
   color: white;
   cursor: pointer;
   padding: 5px 10px;
@@ -76,7 +76,7 @@ section {
 
 .panel {
   display: none;
-  padding: 10px 20px;
+  padding: 1px 10px;
   background-color: #f9f9f9;
   border-left: 3px solid #2e828b;
   margin-bottom: 10px;
