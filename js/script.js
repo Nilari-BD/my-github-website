@@ -8,9 +8,9 @@ acc.forEach(button => {
   });
 });
 
-const acc = document.querySelectorAll(".skills-accordion-btn");
+const skillsAcc = document.querySelectorAll(".skills-accordion-btn");
 
-acc.forEach(button => {
+skillsAcc.forEach(button => {
   button.addEventListener("click", () => {
     const panel = button.nextElementSibling;
     panel.style.display = (panel.style.display === "block") ? "none" : "block";
