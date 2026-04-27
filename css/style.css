@@ -8,7 +8,7 @@ body {
 header {
   text-align: center;
   padding: 40px 0;
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  background: linear-gradient(to right, #2e828b, #8f94fb);
   color: white;
 }
 
@@ -16,7 +16,7 @@ header {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 15px;
-  background-color: #fff;
+  background-color: #f4f4f4;
   color: #4e54c8;
   text-decoration: none;
   border-radius: 5px;
@@ -28,7 +28,7 @@ section {
 
 .skills span {
   display: inline-block;
-  background-color: #4e54c8;
+  background-color: #2e828b;
   color: white;
   padding: 5px 10px;
   margin: 5px;
@@ -51,7 +51,7 @@ section {
 }
 
 .accordion-btn.active {
-  background-color: #4e54c8;
+  background-color: #2e828b;
   color: white;
 }
 
@@ -59,6 +59,6 @@ section {
   display: none;
   padding: 10px 20px;
   background-color: #f9f9f9;
-  border-left: 3px solid #4e54c8;
+  border-left: 3px solid #2e828b;
   margin-bottom: 10px;
 }
