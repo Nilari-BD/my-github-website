@@ -36,10 +36,10 @@ section {
   font-size: 0.9em;
 }
 
-
 .skills-accordion-btn {
   background-color: #eee;
-  color: #444;
+  --tw-text-opacity: 1;
+  color: rgb(2 10 245 / var(--tw-text-opacity));
   cursor: pointer;
   padding: 5px 10px;
   border: none;
