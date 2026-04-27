@@ -38,13 +38,11 @@ section {
 
 
 .skills-accordion-btn {
-  background-color: #eee;
-  color: #444;
+  background-color: #2e828b;
+  color: white;
   cursor: pointer;
   padding: 5px 10px;
-  width: 100%;
   border: none;
-  border-radius: 15px;
   text-align: left;
   outline: none;
   margin-bottom: 5px;
