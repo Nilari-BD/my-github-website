@@ -60,6 +60,11 @@ nav {
 
 nav a {
   color: #fff; /* Sets all links to red */
+  text-decoration: none;
+}
+
+nav a:visited {
+    color: white; /* Keeps links white even after you click them */
 }
 
 /* Main */
