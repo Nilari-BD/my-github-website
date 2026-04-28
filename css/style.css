@@ -67,21 +67,27 @@ nav a:visited {
     color: white; /* Keeps links white even after you click them */
 }
 
+/* This targets only <p> tags inside the <nav> */
+
+nav p {
+    color: #ffffff;        /* Text color */
+    text-align: left;   /* Aligns text to left margins */
+}
+
+/* This keeps your main content <p> tags gray */
+main p {
+  color: #333333;        /* Text color */
+  text-align: justify;   /* Aligns text to both margins */
+  font-size: 18px;       /* Sets the size of the font */
+  line-height: 1.6;      /* Increases space between lines for readability */
+}
+
 /* Main */
 main {
     height: 100%;
     padding: 20px;
     float: center;
     margin-left: 230px;
-}
-
-/* Paragraph */
-
-p {
-  color: #333333;        /* Text color */
-  text-align: justify;   /* Aligns text to both margins */
-  font-size: 18px;       /* Sets the size of the font */
-  line-height: 1.6;      /* Increases space between lines for readability */
 }
 
 /* Footer */
