@@ -1,103 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nilari Gabriela Berger Díaz - Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <!-- Header -->
-  <header>
-    <img src="images/profile.jpg" alt="My Photo" width="200">
-    <h1>Nilari Gabriela Berger Díaz</h1>
-    <p>Programmer • Data Analystc</p>
-    <a href="about.html">About</a> |
-  </header>
-
-  <!-- Projects -->
-<section>
-  <h2>Projects & Portfolio</h2>
-  <div class="accordion">
-
-    <button class="accordion-btn">Undergraduate Thesis – Universidad del Cauca (2007)</button>
-    <div class="panel">
-      <ul>
-        <li>Developed a MATLAB algorithm to extract features from EMG signals corresponding to essential hand movements.</li>
-        <li>Applied wavelet transform techniques to enhance biomedical signal processing for prosthetic research.</li>
-        <li>Contributed to a COLCIENCIAS-funded project on virtual hand modeling.</li>
-      </ul>
-    </div>
-
-    <button class="accordion-btn">VoIP Contact Center Prototypes – Universidad del Cauca</button>
-    <div class="panel">
-      <ul>
-        <li>Designed and developed IVR, ACD, voicemail, CDR, and queue management prototypes using Asterisk, Java, PHP, MySQL, and Linux.</li>
-        <li>Responsible for design, documentation, and full-stack implementation under academic supervision.</li>
-      </ul>
-    </div>
-
-    <button class="accordion-btn">Recipes Web App & Daycare Registration System</button>
-    <div class="panel">
-      <ul>
-        <li>Built full-stack applications with Java Servlets, JSP, and MySQL on Tomcat server.</li>
-        <li>Implemented user login/registration, form validation, and CRUD operations.</li>
-        <li>Created UML diagrams and software documentation.</li>
-      </ul>
-    </div>
-
-    <button class="accordion-btn">Recreational Club Platform</button>
-    <div class="panel">
-      <ul>
-        <li>Developed with Python, SQLite, and Django framework.</li>
-        <li>Implemented user authentication, CRUD features, and reporting tools.</li>
-      </ul>
-    </div>
-
-    <button class="accordion-btn">Web Programming Projects</button>
-    <div class="panel">
-      <ul>
-        <li>Developed PHP scripts for database creation and CRUD operations in MySQL.</li>
-        <li>Created dynamic, searchable HTML tables with JavaScript for interactive data visualization.</li>
-      </ul>
-    </div>
-
-    <button class="accordion-btn">Android Studio Applications</button>
-    <div class="panel">
-      <ul>
-        <li>Built Android apps consuming REST APIs and processing JSON data.</li>
-        <li>Implemented layouts, navigation, and backend communication.</li>
-      </ul>
-    </div>
-
-    <button class="accordion-btn">Desktop Sales App (Python & SQLite)</button>
-    <div class="panel">
-      <ul>
-        <li>Desktop GUI app to check inventory and sales reports.</li>
-        <li>Implemented user authentication, dashboards, and reporting features.</li>
-        <li>Designed and documented system workflows.</li>
-      </ul>
-    </div>
-
-    <button class="accordion-btn">MongoDB Lab Project</button>
-    <div class="panel">
-      <ul>
-        <li>Designed MongoDB schemas and implemented queries and aggregations.</li>
-        <li>Performed data analysis and visualized performance metrics.</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-  <!-- Contact -->
-  <section>
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:nilarigabrielabd@gmail.com">nilarigabrielabd@gmail.com</a> | 📱 +1 (519)-562-1336</p>
-    <p>🌐 <a href="https://github.com/Nilari-BD" target="_blank">GitHub</a></p>
-  </section>
-
-  <script src="js/script.js"></script>
-</body>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+      <title>About me</title>
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>     
+            <!-- Header -->
+            <img src="images/profile.jpg" alt="My Photo" class="profile-img">
+            <h1>Nilari Gabriela Berger Díaz</h1>
+            <p>Programmer • Data Analyst</p>
+          
+            <!-- Contact -->
+            <section class="contact-info">
+              <h1 class="text-xl font-bold">Contact</h1>
+              
+              <div class="contact-methods space-y-1 mt-2">
+                <p>📧 <a href="mailto:nilarigabrielabd@gmail.com" class="hover:underline">nilarigabrielabd@gmail.com</a></p>
+                <p>📱 +1 (519)-562-1336</p>
+                <p>🌐 <a href="https://github.com/Nilari-BD" target="_blank" class="hover:underline">GitHub</a></p>
+                <p>
+                  <a href="https://www.linkedin.com/in/nilari-b-7b73639a/" class="hover:underline flex items-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" 
+                         alt="LinkedIn" 
+                         style="width:18px; height:18px; margin-right: 8px; display: inline-block; vertical-align: middle;">
+                    <span>LinkedIn</span>
+                  </a>
+                </p>
+                  
+              </div>
+          
+            </section>
+          
+        </nav>
+        
+        <main class="container">
+            <!-- Projects -->
+            <section>
+              <h2>Projects & Portfolio</h2>
+              <div class="accordion">
+            
+                <button class="accordion-btn">Undergraduate Thesis – Universidad del Cauca (2007)</button>
+                <div class="panel">
+                  <ul>
+                    <li>Developed a MATLAB algorithm to extract features from EMG signals corresponding to essential hand movements.</li>
+                    <li>Applied wavelet transform techniques to enhance biomedical signal processing for prosthetic research.</li>
+                    <li>Contributed to a COLCIENCIAS-funded project on virtual hand modeling.</li>
+                  </ul>
+                </div>
+            
+                <button class="accordion-btn">VoIP Contact Center Prototypes – Universidad del Cauca</button>
+                <div class="panel">
+                  <ul>
+                    <li>Designed and developed IVR, ACD, voicemail, CDR, and queue management prototypes using Asterisk, Java, PHP, MySQL, and Linux.</li>
+                    <li>Responsible for design, documentation, and full-stack implementation under academic supervision.</li>
+                  </ul>
+                </div>
+            
+                <button class="accordion-btn">Recipes Web App & Daycare Registration System</button>
+                <div class="panel">
+                  <ul>
+                    <li>Built full-stack applications with Java Servlets, JSP, and MySQL on Tomcat server.</li>
+                    <li>Implemented user login/registration, form validation, and CRUD operations.</li>
+                    <li>Created UML diagrams and software documentation.</li>
+                  </ul>
+                </div>
+            
+                <button class="accordion-btn">Recreational Club Platform</button>
+                <div class="panel">
+                  <ul>
+                    <li>Developed with Python, SQLite, and Django framework.</li>
+                    <li>Implemented user authentication, CRUD features, and reporting tools.</li>
+                  </ul>
+                </div>
+            
+                <button class="accordion-btn">Web Programming Projects</button>
+                <div class="panel">
+                  <ul>
+                    <li>Developed PHP scripts for database creation and CRUD operations in MySQL.</li>
+                    <li>Created dynamic, searchable HTML tables with JavaScript for interactive data visualization.</li>
+                  </ul>
+                </div>
+            
+                <button class="accordion-btn">Android Studio Applications</button>
+                <div class="panel">
+                  <ul>
+                    <li>Built Android apps consuming REST APIs and processing JSON data.</li>
+                    <li>Implemented layouts, navigation, and backend communication.</li>
+                  </ul>
+                </div>
+            
+                <button class="accordion-btn">Desktop Sales App (Python & SQLite)</button>
+                <div class="panel">
+                  <ul>
+                    <li>Desktop GUI app to check inventory and sales reports.</li>
+                    <li>Implemented user authentication, dashboards, and reporting features.</li>
+                    <li>Designed and documented system workflows.</li>
+                  </ul>
+                </div>
+            
+                <button class="accordion-btn">MongoDB Lab Project</button>
+                <div class="panel">
+                  <ul>
+                    <li>Designed MongoDB schemas and implemented queries and aggregations.</li>
+                    <li>Performed data analysis and visualized performance metrics.</li>
+                  </ul>
+                </div>
+            
+              </div>
+            </section>
+          
+            <footer>
+                &copy; All rights reserved.
+            </footer>   
+        </main>      
+      <script src="js/script.js"></script>
+    </body>
 </html>
