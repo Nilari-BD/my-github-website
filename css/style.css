@@ -28,7 +28,7 @@ header {
 /* Header 1 */
 h1 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: left;         /* Horizontal alignment */
     font-family: Arial, sans-serif; /* Font style */
     
@@ -36,8 +36,8 @@ h1 {
 
 /* Image format */
 .profile-img {
-    width: 96px;
-    height: 96px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
