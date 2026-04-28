@@ -70,6 +70,15 @@ main {
     margin-left: 230px;
 }
 
+/* Paragraph */
+
+p {
+  color: #333333;        /* Text color */
+  text-align: justify;   /* Aligns text to both margins */
+  font-size: 18px;       /* Sets the size of the font */
+  line-height: 1.6;      /* Increases space between lines for readability */
+}
+
 /* Footer */
 footer {                   
     left: 0;
