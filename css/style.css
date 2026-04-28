@@ -41,16 +41,18 @@ h1 {
     margin: 0 auto 1rem auto; /* Centers it and adds bottom margin */
 }
 
-/* Navigation */
+/* Navigation Sidebar */
 nav {
     position: fixed;
-    border-radius: 5px;
-    float: left;
+    top: 0;           /* Stick to the very top */
+    left: 0;          /* Stick to the very left */
+    height: 100vh;    /* Fill the entire screen height */
+    width: 180px;
+    background-color: #03256C;
     color: #fff;
-    background-color: #03256C;            
-    padding: 20px 20px;            
-    min-height: 550px;
-    width: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-y: auto; /* Optional: If your content is long, allow the sidebar itself to scroll */
 }
 
 nav a {
