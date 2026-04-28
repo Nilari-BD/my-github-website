@@ -61,10 +61,17 @@ nav {
 nav a {
   color: #fff; /* Sets all links to red */
   text-decoration: none;
+  display: block;
+  padding: 4px 0;
+  transition: color 0.2s;  
 }
 
 nav a:visited {
     color: white; /* Keeps links white even after you click them */
+}
+
+nav a:hover {
+    color: #60a5fa; /* Light blue hover effect */
 }
 
 /* This targets only <p> tags inside the <nav> */
@@ -73,6 +80,20 @@ nav p {
     color: #ffffff;        /* Text color */
     text-align: left;   /* Aligns text to left margins */
 }
+
+/* Sidebar Heading Styles */
+nav h2 {
+    font-size: 0.75rem; /* Smaller size */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #9ca3af; /* Light gray color */
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle divider line */
+    padding-bottom: 4px;
+}
+
+/* Bullet point */
 
 ul {
   padding-right: 20px; /* Adds 20px of space inside the list's border */
